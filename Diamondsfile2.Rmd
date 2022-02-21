@@ -1,0 +1,17 @@
+---
+title: "Diamondsfile2"
+author: "Pape Theodore Seye"
+date: "21/02/2022"
+output: html_document
+---
+
+
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+
+```
+
